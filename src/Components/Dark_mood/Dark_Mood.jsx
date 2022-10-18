@@ -306,8 +306,8 @@ function Landing() {
                                         {/* <video src="light.mp4" className='w-100 '></video> */}
                                         <div className="vid_div">
                                             {/* <video src="Dark.mp4" className='w-100 '></video> */}
-                                            <video autoPlay="autoPlay" loop width="100%" id='vid'>
-                                                <source src="light.mp4" type="video/mp4" />
+                                            <video autoPlay="autoPlay" className='vidd' loop width="100%" id='vid'>
+                                                <source src="Dark.mp4" type="video/mp4" />
 
                                             </video>
 
@@ -340,12 +340,12 @@ function Landing() {
                                         </div>
 
                                         <div className="">
-                                            <img src="LIGHT.png" className='img-fluid w-50' alt="" />
+                                            <img src={Dark} className='img-fluid w-50' alt="" />
                                         </div>
 
                                         <div className="bttn">
-                                            <div className="btn scnd_bttn actiggve" onClick={() => navigate('/')}>LIGHT THEME</div>
-                                            <div className="btn scnd_bttn" onClick={() => navigate('/Dark_Mood')}>DARK THEME</div>
+                                            <div className="btn scnd_bttn  activedark1" onClick={() => navigate('/')}>LIGHT THEME</div>
+                                            <div className="btn scnd_bttn activedark activedark1" onClick={() => navigate('/Dark_Mood')}>DARK THEME</div>
                                         </div>
 
                                         <div className="blck">

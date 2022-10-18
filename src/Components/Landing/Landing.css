@@ -143,6 +143,10 @@
     box-shadow: 3px 4px 6px rgb(24, 22, 22);
 }
 
+#vid{
+    border-radius: 10px 0 0px 10px;
+}
+
 .mint img{
     margin-top: 25px;
     width: 80%;
@@ -181,6 +185,10 @@
     input{
         width: auto;
         height: 50px;
+    }
+
+    #vid{
+        border-radius: 10px;
     }
 }
 

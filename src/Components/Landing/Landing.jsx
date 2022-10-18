@@ -13,6 +13,7 @@ import { toast } from 'react-toastify';
 import { loadWeb3 } from '../apis/api';
 import { loadWeb4 } from '../apis/api2';
 import Web3 from "web3";
+import LazyLoad from 'react-lazy-load';
 
 
 function Landing() {
@@ -306,6 +307,7 @@ function Landing() {
                     {/* <video src="light.mp4" className='w-100 '></video> */}
                     <div className="vid_div">
                       {/* <video src="Dark.mp4" className='w-100 '></video> */}
+                      
                       <video autoPlay="autoPlay" loop width="100%" id='vid'>
                         <source src="light.mp4" type="video/mp4" />
 
